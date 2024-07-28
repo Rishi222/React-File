@@ -2,7 +2,7 @@ import Product from "./Product.jsx";
 
 function ProductsTab(){
   // make some
-    let options=[<li>"hi-tech"</li>,<>"durable"</>,<>"fast"</>];
+    let options=[<li>"hi-tech"</li>,<li>"durable"</li>,<li>"fast"</li>];
     // let options2={a:"hi-tech",b:"durable",c:"fast"};
 
     return (<>
