@@ -2,7 +2,7 @@ import './App.css'
 // import { Title,Title2 } from './Title.jsx';
 // import Cards from './Cards.jsx';
 import ProductsTab from './ProductsTab.jsx';
-import Msgbox from "./Msgbox.jsx";
+
 
 // function Description() {
 //   return <h2>Rishi Sharma</h2>;
@@ -11,17 +11,10 @@ import Msgbox from "./Msgbox.jsx";
 function App() {
   return (
     <>
-      {/* <Title/>
-      <Title2/>
-      <Description/>
-      <Cards/>      
-      <p>Web Development At Top</p> */}
-      <Msgbox userName="Rishi" textColor="red" />
+      <h1>Amazon Cards Activity</h1>
       <ProductsTab />
     </>
   );
-  
-  // <h1>Hello Rishi</h1>
 }
 
 export default App;
