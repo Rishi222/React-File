@@ -2,6 +2,7 @@ import './App.css'
 // import { Title,Title2 } from './Title.jsx';
 // import Cards from './Cards.jsx';
 import ProductsTab from './ProductsTab.jsx';
+import Msgbox from "./Msgbox.jsx";
 
 // function Description() {
 //   return <h2>Rishi Sharma</h2>;
@@ -15,7 +16,8 @@ function App() {
       <Description/>
       <Cards/>      
       <p>Web Development At Top</p> */}
-      <ProductsTab/>
+      <Msgbox userName="Rishi" textColor="red" />
+      <ProductsTab />
     </>
   );
   
