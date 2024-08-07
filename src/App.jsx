@@ -1,7 +1,8 @@
 import './App.css'
 // import { Title,Title2 } from './Title.jsx';
 // import Cards from './Cards.jsx';
-import ProductsTab from './ProductsTab.jsx';
+// import ProductsTab from './ProductsTab.jsx';
+import Button from './Button.jsx';
 
 
 // function Description() {
@@ -11,8 +12,9 @@ import ProductsTab from './ProductsTab.jsx';
 function App() {
   return (
     <>
-      <h1>Amazon Cards Activity</h1>
-      <ProductsTab />
+      {/* <h1>Amazon Cards Activity</h1> */}
+      {/* <ProductsTab /> */}
+      <Button/>
     </>
   );
 }
