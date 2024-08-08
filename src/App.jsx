@@ -2,7 +2,8 @@ import './App.css'
 // import { Title,Title2 } from './Title.jsx';
 // import Cards from './Cards.jsx';
 // import ProductsTab from './ProductsTab.jsx';
-import Button from './Button.jsx';
+// import Button from './Button.jsx';
+import Form from './form.jsx';
 
 
 // function Description() {
@@ -14,7 +15,8 @@ function App() {
     <>
       {/* <h1>Amazon Cards Activity</h1> */}
       {/* <ProductsTab /> */}
-      <Button/>
+      {/* <Button/> */}
+      <Form/>
     </>
   );
 }
